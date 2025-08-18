@@ -44,8 +44,12 @@ In our Expense Tracker project, efficient data modeling is essential to accurate
 
 once updated you can add the transaction and will see the output in the terminal
 
-To be precise I have used Mysql database hosting in the XAMPP server where the models will be available for the application
-
+To be precise I have used Mysql database hosting in the XAMPP server where the models will be available for the application.
+screenshots/trackerhistory table .png
+<p align="center">
+  <img src="screenshots/trackerhistory table .png" width="35%"/>
+  <img src=""/>
+</p>
 
 
 

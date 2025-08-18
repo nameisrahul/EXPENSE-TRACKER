@@ -20,5 +20,6 @@ To put it simple, I can describe the entire project in seperate segments such as
 - Step 3: I used codepen/io for the html and css templates and later modified and rewritten the code for the necessary UI part of the website and integrated in the project
 - step 4: Once integrated I have created the necessary URL's for template rendering for the application
 - step 5: Run the server by pushing the command 'python manage.py runserver' open the generated IP  and the ui part will starts to jump in the web.
+[App Screenshot]()
 
 

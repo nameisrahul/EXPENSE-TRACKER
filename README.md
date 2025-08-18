@@ -62,8 +62,14 @@ To display transactions, current balance, income and expense on the UI of our Ex
                  - Restart the Django development server (python manage.py runserver) and navigate to the application in the browser. we should now see the transaction history displayed on the UI.
 
 <p align="center">
-  <img src="screenshots/ui part.png" width="35%"/>
+  <img src="screenshots/expensetracker.png" width="35%"/>
 </p>
+Here we can see that the application is showing the current balance as 'YOUR BALANCE', 'INCOME', 'EXPENSES' and transaction history as 'History'.
 
+
+We can also check whether the application pulling back the entered transactions into the database server properly or not
+<p align="center">
+  <img src="" width="75%"/>
+</p>
 
 

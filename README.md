@@ -69,7 +69,18 @@ Here we can see that the application is showing the current balance as 'YOUR BAL
 
 We can also check whether the application pulling back the entered transactions into the database server properly or not
 <p align="center">
-  <img src="" width="75%"/>
+  <img src="screenshots/Database with records.png" width="85%"/>
 </p>
-
+Now we can confirm that the informations are pulled back into the database properly and the application working fine completely.
+## Technical Stack/Tools Used:
+- Frontend: Html, Css, codepen-io
+- Backend framefork: Django
+- Programming language: Python
+- Database: Mysql
+- Server: XAMPP
+## How to Run:
+```bash
+git clone <>
+cd project-folder
+python manage.py runserver
 

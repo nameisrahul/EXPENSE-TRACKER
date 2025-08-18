@@ -72,15 +72,18 @@ We can also check whether the application pulling back the entered transactions 
   <img src="screenshots/Database with records.png" width="85%"/>
 </p>
 Now we can confirm that the informations are pulled back into the database properly and the application working fine completely.
+
 ## Technical Stack/Tools Used:
 - Frontend: Html, Css, codepen-io
 - Backend framefork: Django
 - Programming language: Python
 - Database: Mysql
 - Server: XAMPP
+
 ## How to Run:
+
 ```bash
-git clone <>
+git clone <https://github.com/nameisrahul/EXPENSE-TRACKER>
 cd project-folder
 python manage.py runserver
 

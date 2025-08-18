@@ -35,7 +35,7 @@ In our Expense Tracker project, efficient data modeling is essential to accurate
 **Trackin History**
   Records the history of expenses. It contains fields such as current_balance (linked to CurrentBalance model), amount, expense_type, description, and created_at.
 - Step 3: **Migrations and database sync:** After defining the models, generate and apply migrations to create corresponding database tables by running the following python commands **"python manage.py makemigrations"** and **"python manage.py migrate"**
-- Step 4: Admin panel registration: To interact with the defined models in admin interface register them in admin.py file by importin the models and executing the following line "admin.site.register(model name)"
+- Step 4: Admin panel registration (optional): To interact with the defined models in admin interface register them in admin.py file by importing the models and executing the following line "admin.site.register(model name)"
 - Step 5 :
   - Views and Template updating:
        -  Open index.html located in the templates directory and add a form to allow users to submit expenses 
@@ -50,7 +50,20 @@ screenshots/trackerhistory table .png
   <img src="screenshots/trackerhistory table .png" width="70%"/>
   <img src="screenshots/currentbalnce table.png"width="70%"/>
 </p>
-Here we can see that the model Tracking History and Current Balance are created in the mysql xampp server with necessary columns/fields.
+Here we can see that the Tracking History and Current Balance models which are created in the app's models.py file are pushed to the mysql XAMPP server with the defined columns/fields.
+
+## Building the form logic:
+To display transactions, current balance, income and expense on the UI of our Expense Tracker application, we need to retrieve the transaction data from the database in our Django view and pass it to the HTML template for rendering.
+- Step 1: Retrive transaction data in the view function
+                 - In the view function (e.g., index.html), query the TrackingHistory model to retrieve the transaction data. Then, pass this data to the HTML template.
+- Step 2: Update the HTML Template
+                 - Modify the HTML template (index.html) to iterate over the transaction_history passed from the view and display each transaction.
+- Step 3: Verify and Test
+                 - Restart the Django development server (python manage.py runserver) and navigate to the application in the browser. we should now see the transaction history displayed on the UI.
+
+<p align="center">
+  <img src="screenshots/ui part.png" width="35%"/>
+</p>
 
 
 

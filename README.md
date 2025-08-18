@@ -79,6 +79,8 @@ Now we can confirm that the informations are pulled back into the database prope
 - Programming language: Python
 - Database: Mysql
 - Server: XAMPP
+- Version control: Git, Github
+- Other tools: django's ORM, Admin pannel/Interface, 
 
 ## How to Run:
 

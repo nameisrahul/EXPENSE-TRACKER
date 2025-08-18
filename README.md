@@ -47,9 +47,10 @@ once updated you can add the transaction and will see the output in the terminal
 To be precise I have used Mysql database hosting in the XAMPP server where the models will be available for the application.
 screenshots/trackerhistory table .png
 <p align="center">
-  <img src="screenshots/trackerhistory table .png" width="35%"/>
-  <img src=""/>
+  <img src="screenshots/trackerhistory table .png" width="70%"/>
+  <img src="screenshots/currentbalnce table.png"width="70%"/>
 </p>
+Here we can see that the model Tracking History and Current Balance are created in the mysql xampp server with necessary columns/fields.
 
 
 

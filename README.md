@@ -83,9 +83,51 @@ Now we can confirm that the informations are pulled back into the database prope
 - Other tools: django's ORM, Admin pannel/Interface, 
 
 ## How to Run:
-
 ```bash
 git clone <https://github.com/nameisrahul/EXPENSE-TRACKER.git>
 cd project-folder
 python manage.py runserver
+```
+## Installation & Setup:
+
+  1. Clone the repository
+     ```bash
+     git clone <https://github.com/nameisrahul/EXPENSE-TRACKER.git>
+     ```
+ 
+  2. Create a virtual environment
+     ```bash
+     python -m venv venv
+     ```
+     Activate it
+     - Windows
+       ```bash
+       venv\Scripts\activate
+       ```
+     - Mac
+       ```bash
+       source venv/bin/activate
+       ```
+ 
+  3. Install Dependencies
+     change it to the project directory
+     ``` bash
+     cd project-directory
+     ```
+    
+  - open the code in VScode or any IDE's 
+ 
+  4. Apply migrations
+     ```bash
+     python manage.py makemigrations
+     python manage.py migrate
+ 
+  5. Run the Development Server
+     ``` bash
+     python manage.py runserver
+     ```
+
+
+
+
 

@@ -30,8 +30,8 @@ This **Expense Tracker** application helps you log and categorize your expenses 
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="screenshots/ui part.png" alt="Home Page" width="400"/>
-  <img src="screenshots/history.png" alt="Transaction History" width="400"/>
+  <img src="screenshots/ui part.png" alt="Home Page" width="265"/>
+  <img src="screenshots/expensetracker.png" alt="Transaction History" width="200"/>
   <img src="" alt="Home Page" width="400"/>
   <img src="" alt="Transaction History" width="400"/>
 </p>

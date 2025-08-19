@@ -30,10 +30,9 @@ This **Expense Tracker** application helps you log and categorize your expenses 
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="screenshots/ui part.png" alt="Home Page" width="265"/>
-  <img src="screenshots/expensetracker.png" alt="Transaction History" width="200"/>
-  <img src="" alt="Home Page" width="400"/>
-  <img src="" alt="Transaction History" width="400"/>
+  <img src="screenshots/ui part.png" alt="" width="265"/>
+  <img src="screenshots/expensetracker.png" alt="" width="200"/>
+  <img src="screenshots/Database with records.png" alt="" width="800"/>
 </p>
 
 ---
@@ -50,10 +49,42 @@ This **Expense Tracker** application helps you log and categorize your expenses 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/nameisrahul/EXPENSE-TRACKER.git
-cd EXPENSE-TRACKER
-
+     ```bash
+     git clone <https://github.com/nameisrahul/EXPENSE-TRACKER.git>
+     ```
+ 
+  2. Create a virtual environment
+     ```bash
+     python -m venv venv
+     ```
+     Activate it
+     - Windows
+       ```bash
+       venv\Scripts\activate
+       ```
+     - Mac
+       ```bash
+       source venv/bin/activate
+       ```
+ 
+  3. Install Dependencies
+     change it to the project directory
+     ``` bash
+     cd EXPENSE-TRACKER
+     ```
+    
+  - open the code in VScode or any IDE's 
+ 
+  4. Apply migrations
+     ```bash
+     python manage.py makemigrations
+     python manage.py migrate
+ 
+  5. Run the Development Server
+     ``` bash
+     python manage.py runserver
+     ```
+  Your app will be available at http://127.0.0.1:8000/
 
 
 

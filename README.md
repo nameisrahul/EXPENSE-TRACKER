@@ -85,7 +85,7 @@ Now we can confirm that the informations are pulled back into the database prope
 ## How to Run:
 
 ```bash
-git clone <https://github.com/nameisrahul/EXPENSE-TRACKER>
+git clone <https://github.com/nameisrahul/EXPENSE-TRACKER.git>
 cd project-folder
 python manage.py runserver
 

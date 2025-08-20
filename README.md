@@ -39,10 +39,11 @@ This **Expense Tracker** application helps you log and categorize your expenses 
 
 ## 🛠 Tech Stack
 - **Frontend**: HTML, CSS (template adapted from CodePen)  
-- **Backend**: Django (Python)  
+- **Backend framework**: Django
+- **Pogramming language**: Python
 - **Database**: MySQL (via XAMPP)  
 - **Version Control**: Git, GitHub  
-- **Other Tools**: Django ORM, Admin Panel  
+- **Other Tools**: Django ORM, Admin Pannel  
 
 ---
 

@@ -14,7 +14,7 @@
 ---
 
 ## 🚀 Overview
-Managing personal finances has become increasingly important, whether you're saving for a vacation, planning for retirement, or simply staying within a budget.  
+It is mainly for managing personal finances which has become increasingly important, whether you're saving for a vacation, planning for retirement, or simply staying within a budget.  
 This **Expense Tracker** application helps you log and categorize your expenses while keeping track of your overall balance.
 
 ---
